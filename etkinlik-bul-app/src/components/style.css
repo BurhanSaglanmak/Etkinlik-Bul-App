@@ -1,0 +1,232 @@
+
+.filmcard{
+    display:table-cell;
+    justify-content:space-between;
+    margin: 5px;
+    padding: 5px;
+    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 20px;
+
+}
+.popularcard{
+    display:table-cell;
+    justify-content:space-between;
+    max-width: 400px;
+    min-height: 1000px;
+
+    margin: 5px;
+    padding: 5px;
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 20px;
+    
+    
+}
+
+.rating{
+    display:flex;
+    justify-content:space-around;
+}
+.popularimg{
+    max-width: 500px;
+    max-height: 700px;
+    min-height: 390px;
+}
+.filmimg{
+    min-height: 420px;
+    max-width: 300px; ;
+}
+.filmallimg{
+    
+    max-width: 300px;
+    min-height: 450px;
+    padding-bottom: 50px;
+}
+.filmallimg1{
+    
+    max-width: 300px;
+    min-height: 420px;
+    padding-bottom: 50px;
+}
+.filmallimg2{
+    
+    max-width: 300px;
+    min-height: 375px;
+    padding-bottom: 50px;
+}
+.tiyatroimg{
+    
+    min-height: 420px;
+    max-width: 300px; ;
+}
+.img{
+    min-width: 300px;
+    min-height: 420px;
+}
+.popularallcard{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 450px;
+    margin: 5px;
+    padding: 5px;    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 15px;
+    
+}
+.popularallimg{
+    max-width: 500px;
+    max-height: 700px;
+    min-height: 390px;
+}
+.filmallcard{
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 450px;
+    margin: 5px;
+    padding: 5px;    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 15px;
+    
+}
+.salooncard{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 480px;
+    margin: 5px;
+    padding: 5px;    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 15px;
+}
+.saloonimg{
+    
+    max-width: 300px;
+    min-height: 200px;
+}
+.tiyatroallcard{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 450px;
+    margin: 5px;
+    padding: 5px;    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 15px;}
+
+.theatrecard{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 370px;
+    max-height: 800px;
+    margin: 5px;
+    padding: 5px;    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 15px;
+}
+.theatreimg{
+    max-width: 200px;
+    min-height: 420px;
+}
+.baleimg{
+    min-height: 350px;
+    max-width: 300px; ;
+}
+.popular{
+    display: flex;
+    justify-content: center;
+}
+
+.detailcard{
+    max-width: 450px;
+    margin-left:auto !important;
+    margin-right:auto !important;
+
+    margin: 5px;
+    padding: 5px;    
+    border: solid;
+    border-style: double;
+    border-color: black ;
+    border-radius: 1px;
+}
+.poster{
+    display: flex !important;
+    justify-content: space-between !important;
+    max-height: 1000px !important;
+    min-height: 700px;
+    min-width: 400px;
+    max-width: 500px !important;
+    float: left;
+}
+.canvas{
+    margin: 10px;
+    margin-left: 50px ;
+    
+}
+.leaflet-container{
+    width: 60vh !important;
+    height: 40vh !important;
+    float: right;
+    margin-right: 20px;
+}
+.posterimg{
+    display: flex !important;
+    justify-content: space-between !important;
+    max-height: 900px !important;
+    min-height: 400px;
+    max-width: 1000px !important;
+    float: left;
+}
+
+ul,li{
+    margin: 3px;
+}
+.filterData{
+    display: flex;
+    justify-content: center;
+}
+.filterh3{
+    margin-left: 10px;
+}
+.textlength{
+    display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.backgroundcolor{
+    background-color: rgba(49, 214, 255, 0.164);
+   
+}
+.bg-light1{  
+      background-color: rgba(49, 255, 228, 0.623);
+    border-radius: 8px;
+}
+.radius{
+    border-radius: 30px !important;
+}
+.textbackground{
+    background-color: rgba(110, 110, 110, 0.301);
+    border-radius: 20px;
+    padding: 6px;
+}
+.namemargin{
+    margin: 5px;
+}
