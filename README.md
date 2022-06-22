@@ -16,7 +16,7 @@ ETS_Hiring_Challenge-Etkinlik_Bul_App
 
 - Etkinlik detay sayfasında fotoğrafların slider ile gösterimi.
 
-- 3 farklı kategorinin (Film, Tiyatro, Bale) etkinlik listesi.
+- 3 farklı kategori (Film, Tiyatro, Bale) etkinliklerinin listelenmesi.
 
 
 
