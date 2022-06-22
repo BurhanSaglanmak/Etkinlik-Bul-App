@@ -8,15 +8,15 @@ ETS_Hiring_Challenge-Etkinlik_Bul_App
 
 - Context API veri aktarımı.
 
-- Fetch API ile JSON dataları çekildi.
+- Fetch API ile JSON datala çekimi.
 
-- Popüler filmler slider effect ile gösterildi
+- Popüler filmlerin slider effect ile gösterimi.
 
-- Detay sayfasında konum verileri alınarak map üzerinde gösterildi.
+- Detay sayfasında konum verilerinin alınarak map üzerinde gösterimi.
 
-- Etkinlik detay sayfasında fotoğraflar slider ile gösterildi.
+- Etkinlik detay sayfasında fotoğrafların slider ile gösterimi.
 
-- 3 farklı kategoride (Film, Tiyatro, Bale) etkinlik listelendi.
+- 3 farklı kategorinin (Film, Tiyatro, Bale) etkinlik listesi.
 
 
 
