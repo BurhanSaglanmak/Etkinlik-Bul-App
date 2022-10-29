@@ -1,4 +1,4 @@
-# Etkinlik-Bul-App
+# Etkinlik-Bul-App [(LIVE)](https://etkinlik-bull-app.netlify.app/)
 ETS_Hiring_Challenge-Etkinlik_Bul_App
 
 
