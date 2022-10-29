@@ -13,8 +13,9 @@ function PopularCard({ name, profile_pic_url, text ,imdbRating}) {
 
  }
   return (
-    <div >
-      <div className="popularcard" >
+    <div className="filmallcard" >
+          <hr></hr>
+      <div className="popularcardcontainer" >
         {profile_pic_url ? (
           <img className="popularimg" src={profile_pic_url} alt="..." />
         ) : (
@@ -32,6 +33,7 @@ function PopularCard({ name, profile_pic_url, text ,imdbRating}) {
           </div>
         </div>
       </div>
+      <hr></hr>
     </div>
   );
 }

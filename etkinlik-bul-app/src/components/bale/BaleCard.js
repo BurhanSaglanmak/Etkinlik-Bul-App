@@ -12,8 +12,9 @@ function BaleCard({ name, profile_pic_url, text ,imdbRating}) {
  
   }
   return (
-    <div className='filmcard'>
-        <div >
+    <div className='filmallcard'>
+         <hr></hr>
+        <div  className='popularcardcontainer' >
         {profile_pic_url ? (
           <img className='baleimg' src={profile_pic_url}  alt="..." />
         ) : (
@@ -30,6 +31,8 @@ function BaleCard({ name, profile_pic_url, text ,imdbRating}) {
           </div>
         </div>
       </div>
+        <hr></hr>
+        
     </div>
   )
 }

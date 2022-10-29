@@ -49,7 +49,7 @@ function SaloonAll() {
    
 
   return (
-    <div>
+    <div className="saloonAll">
 
     {data && <div>
       {saloonData &&<h3>{saloonData}</h3>}

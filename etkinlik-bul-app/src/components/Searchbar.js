@@ -26,7 +26,7 @@ function Searchbar() {
   <div className="container-fluid backgroundcolornav ">
     <Link className="navbar-brand btn btn-outline-success radius" to="">Ana Sayfa</Link>
     <div  className="d-flex" role="search">
-      <input value={value} onChange={change} className="form-control me-2 radius" type="search" placeholder="Search" aria-label="Search" />
+      <input value={value} onChange={change} className="form-control me-2 radius searchInput" type="search" placeholder="Search" aria-label="Search" />
       {value &&<Link className="navbar-brand btn btn-outline-success radius" onClick={click} to={`detail/${value}`} type="submit">Search</Link>}
     </div>
   </div>

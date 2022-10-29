@@ -14,11 +14,12 @@ function BaleAllCard({ name, profile_pic_url, text ,imdbRating}) {
 
   return (
     <div className='filmallcard'>
-        <div >
+          <hr></hr>
+        <div  className='popularcardcontainer' >
         {profile_pic_url ? (
-          <img className='baleimg' src={profile_pic_url}  alt="..." />
+          <img className='filmallimg1' src={profile_pic_url}  alt="..." />
         ) : (
-          <img className='filmallimg2'
+          <img className='filmallimg1'
             src="https://static.wikia.nocookie.net/just-because/images/0/0c/NoImage_Available.png/revision/latest?cb=20170601005615"
             alt="..."
           />
@@ -31,6 +32,7 @@ function BaleAllCard({ name, profile_pic_url, text ,imdbRating}) {
           </div>
         </div>
       </div>
+      <hr></hr>
     </div>
   )
 }

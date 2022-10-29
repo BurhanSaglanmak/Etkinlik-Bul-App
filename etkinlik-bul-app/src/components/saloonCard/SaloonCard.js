@@ -8,12 +8,13 @@ function SaloonCard({ name, profile_pic_url, text }) {
 
 
  return (
-   <div className='salooncard'>
-       <div >
+   <div className='filmallcard'>
+          <hr></hr>
+       <div className='popularcardcontainer' >
        {profile_pic_url ? (
-         <img className='filmimg' src={profile_pic_url}  alt="..." />
+         <img className='filmallimg1' src={profile_pic_url}  alt="..." />
        ) : (
-         <img className='filmallimg2'
+         <img className='filmallimg1'
            src="https://static.wikia.nocookie.net/just-because/images/0/0c/NoImage_Available.png/revision/latest?cb=20170601005615"
            alt="..."
          />
@@ -25,6 +26,7 @@ function SaloonCard({ name, profile_pic_url, text }) {
          </div>
        </div>
      </div>
+     <hr></hr>
    </div>
  )
 }

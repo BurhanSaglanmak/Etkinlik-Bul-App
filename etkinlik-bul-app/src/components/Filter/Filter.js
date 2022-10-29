@@ -7,11 +7,11 @@ import FilterCard from "./FilterCard";
 
 
 function Filter() {
-  const {saloonDataFilter,etkinlikData,tarih} =NameDataContext();
+  const {saloonDataFilter,etkinlikData} =NameDataContext();
   const [popularData, setPopularData] = useState([]);
   const [tiyatoData, setTiyatroData] = useState([]);
   const [baleData, setBaleData] = useState([]);
- console.log(tarih);
+//  console.log(tarih);
     
  useEffect(() => {
   fetch("/Film.json")

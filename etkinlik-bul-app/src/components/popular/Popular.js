@@ -18,13 +18,14 @@ function Popular() {
   useEffect(()=>{
     setWidth(carousel.current.offsetWidth)
   },[])
-
+// console.log(width);
   return (
+    <div>
     <motion.div ref={carousel} className="carousel" whileTap={{cursor:"grabbing"}} >
-      <motion.div drag="x" dragConstraints={{right: 0, left: -width }} className="inner-carousel" >
+      {width>1040?<motion.div drag="x" dragConstraints={{right: 0, left: -width }} className="inner-carousel" >
         <motion.div className="inner-carousel">
         <div>
-      {filtered?.slice(0, 8).map((item, index) => {return(<motion.div key={index} className="item">
+      { filtered?.slice(0, 8).map((item, index) => {return(<div key={index} className="item">
       <PopularCard
           key={index}
           index={index}
@@ -33,13 +34,33 @@ function Popular() {
           text={item.Plot}
           imdbRating={item.imdbRating}
         />
-      </motion.div>
+      </div>
        
       )})}
     </div>
         </motion.div>
       </motion.div>
+      :
+      <div>
+    { filtered?.slice(0, 8).map((item, index) => {return(<div key={index} className="item">
+    <div className="">
+    <PopularCard
+        key={index}
+        index={index}
+        name={item.Title}
+        profile_pic_url={item.Poster}
+        text={item.Plot}
+        imdbRating={item.imdbRating}
+      />
+    </div>
+    </div>
+     
+    )})}
+  </div>
+    }
     </motion.div>
+
+    </div>
     
   );
 }

@@ -13,11 +13,13 @@ function PopularAllCard({ name, profile_pic_url, text ,imdbRating}) {
   }
     return (
         <div className='filmallcard'>
-          <div >
+          <hr></hr>
+
+          <div className='popularcardcontainer' >
             {profile_pic_url ? (
-              <img src={profile_pic_url} alt="..."  className="popularallimg"/>
+              <img src={profile_pic_url} alt="..."  className="filmallimg1"/>
             ) : (
-              <img className="filmallimg"
+              <img className="filmallimg1"
                 src="https://static.wikia.nocookie.net/just-because/images/0/0c/NoImage_Available.png/revision/latest?cb=20170601005615"
                 alt="..."
               />
@@ -31,6 +33,7 @@ function PopularAllCard({ name, profile_pic_url, text ,imdbRating}) {
               </div>
             </div>
           </div>
+          <hr></hr>
         </div>
       );
   

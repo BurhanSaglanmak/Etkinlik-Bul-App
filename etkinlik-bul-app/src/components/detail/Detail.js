@@ -65,11 +65,11 @@ function Detail() {
    
 
   return (
-    <div>
+    <div className="detailContainer">
       {data && <DetailPoster poster={data.Poster} />}
       {data && <DetailMap konum={data.konum} latitude={data.latitude} longitude={data.longitude} />}
       {data &&<div className='detailcard'>
-        {data ? <div >
+        {data ? <div className="detailAbstract">
           <DetailSlider image1={data.Images[0]} image2={data.Images[1]} image3={data.Images[2]} image4={data.Images[3]} />
 
           <div >
@@ -101,7 +101,7 @@ function Detail() {
       {dataTheatre && <DetailPoster poster={dataTheatre.Poster} />}
       {dataTheatre && <DetailMap konum={dataTheatre.konum} latitude={dataTheatre.latitude} longitude={dataTheatre.longitude} />}
       {dataTheatre &&<div className='detailcard'>
-        {dataTheatre ? <div >
+        {dataTheatre ? <div className="detailAbstract">
           <DetailSlider image1={dataTheatre.Images[0]} image2={dataTheatre.Images[1]} image3={dataTheatre.Images[2]} image4={dataTheatre.Images[3]} />
 
           <div >
@@ -132,7 +132,7 @@ function Detail() {
       {dataBale && <DetailPoster poster={dataBale.Poster} />}
       {dataBale && <DetailMap konum={dataBale.konum} latitude={dataBale.latitude} longitude={dataBale.longitude} />}
       {dataBale &&<div className='detailcard'>
-        {dataBale ? <div >
+        {dataBale ? <div className="detailAbstract" >
           <DetailSlider image1={dataBale.Images[0]} image2={dataBale.Images[1]} image3={dataBale.Images[2]} image4={dataBale.Images[3]} />
 
           <div >
